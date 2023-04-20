@@ -1,0 +1,101 @@
+
+
+
+.drop-menu-wrap {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    width: 329px;
+    height: 329px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 62px;
+    border: none;
+   
+}
+
+
+
+.drop-words {
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #808397;
+    letter-spacing: -0.14px;
+}
+
+
+
+
+
+.about-drop {
+  margin-top: 39px;
+  margin-bottom: 32px;
+}
+
+
+
+
+
+
+.services-drop {
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+
+
+
+.projects-drop {
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+
+
+
+
+.drop-menu-button {
+  width: 140px;
+  height: 56px;
+  background-color: #fbd600;
+  border-radius: 28px;
+  margin-top: 0;
+  border: none;
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.11px;
+  color: #24303e;
+  
+}
+
+
+
+
+.blue-box-drop {
+  display: flex;
+  justify-content: flex-end;
+  height: 24px;
+  width: 100%;
+  background-color: #49bcf1;
+  border: none;
+}
+
+
+
+
+
+
+.bottom-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 24px solid #ffffff;
+  border-left: 24px solid transparent;
+  margin-top: 2px;
+}

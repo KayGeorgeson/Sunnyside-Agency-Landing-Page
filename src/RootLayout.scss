@@ -1,0 +1,1701 @@
+$font-stack: 'Barlow', 'Fraunces', sans-serif;
+$font-one: 'Fraunces';
+$font-two: 'Barlow';
+
+
+
+/*  colours  */
+$background-col: #ffffff;
+$dark-blue: #24303e;
+$text-box-grey: #808397;
+
+$graphic-design-title: #24554a;
+$graphic-design-copy: #24554a;
+
+$photography-title: #052c3b;
+$photography-copy: #19536c;
+
+$client-copy: #5b636d;
+$client-test-title: #a7aaad;
+$client-job: #a7aaad;
+
+$footer-wrap-col: #90d4c6;
+$footer-links: #458d7e;
+
+$large-screen-body: #49bcf1;
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: $background-col;
+    font-family: $font-stack;
+    
+}
+
+
+
+
+
+
+/*    nav content   */
+
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+   
+   
+   
+   
+  
+}
+
+
+
+
+
+.header-image {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+.nav-wrap {
+   position: absolute;
+   width: 100%;
+   margin-top: 3.2rem;
+   display: flex;
+   justify-content: center;
+   
+}
+
+
+
+
+.nav-content {
+   
+    display: flex;
+    justify-content: space-between;
+    height: 2.4rem;
+    width: 32.7rem;
+    
+   
+    
+    
+}
+
+
+.sunny-logo {
+    height: 2.4rem;
+    width: 12.364rem;
+    color: $background-col;
+   
+    
+}
+
+
+.burger-icon {
+    color: $background-col;
+    width: 2.4rem;
+    height: 1.8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+
+/*    top of site design   */
+
+
+
+.title-wrap {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 14.4rem;
+  width: 100%;
+  height: 33rem;
+  position: absolute;
+}
+
+
+
+
+
+
+
+ .top-title-box {
+    
+    display: flex;
+    flex-direction: column;
+    width: 32.7rem;
+    height: 9.8rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    
+ }
+
+
+
+
+ .creatives-main-title { 
+    font-size: 4rem;
+    line-height: 4.932rem;
+    font-weight: 900;
+    font-family: $font-one;
+    margin: 0;
+    text-align: center;
+    color: $background-col;
+ }
+
+
+
+
+ .arrow-down-main {
+    
+    width: 3rem;
+    height: 10.748rem;
+    align-self: center;
+    margin-top: 5.2rem;
+    
+   
+ }
+
+
+
+
+
+ /*  main site with grid  */
+
+
+
+ 
+
+
+
+  .main-contain {
+    border: 0;
+    
+    
+ }
+
+
+
+
+  .egg-image {
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+
+
+
+
+ 
+  .first-text-box-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4rem;
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
+    height: 37rem;
+    width: 30.9rem;
+    
+  } 
+
+
+
+
+  .first-text-box-title {
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 3.946rem;
+    font-family: $font-one;
+    text-align: center;
+    color: $dark-blue;
+    letter-spacing: -0.023rem;
+  }
+
+
+
+
+
+  .first-text-box-copy {
+    margin-top: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 600;
+    font-family: $font-two;
+    text-align: center;
+    color: $text-box-grey;
+    letter-spacing: -0.013rem;
+  }
+
+
+
+
+  .text-box-links {
+    margin-top: 3.2rem;
+    margin-bottom: 6.4rem;
+    text-align: center;
+    font-size: 1.9rem;
+    color: $dark-blue;
+    font-weight: 900;
+    font-family: $font-one;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+
+
+
+  .pink-glass-image {
+    height: 31.2rem;
+    width: 100%;
+    border: 0;
+  }
+
+
+
+
+
+  .second-text-box-wrap {
+    height: 35rem;
+    width: 32.7rem;
+    padding: 0.4rem;
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+
+
+
+  .second-text-box-title {
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin-bottom: 2.4rem;
+    font-family: $font-one;
+    color: $dark-blue;
+    line-height: 3.946rem;
+    letter-spacing: -0.023rem;
+    text-align: center;
+  }
+
+
+
+
+
+ .second-text-box-copy {
+    font-size: 1.8rem;
+    font-family: $font-two;
+    line-height: 3rem;
+    letter-spacing: -0.013rem;
+    font-weight: 600;
+    color: $text-box-grey;
+    text-align: center;
+ }
+
+
+
+ .text-box-links {
+   margin-top: 3.2rem;
+   margin-bottom: 6.4rem;                
+   text-align: center;
+   font-size: 1.9rem;
+   color: $dark-blue;
+   font-weight: 900;
+   font-family: $font-one;
+   line-height: 2.5rem;
+   letter-spacing: 0.1rem
+
+ }  
+
+
+
+
+ .graphic-image-wrap {
+  display: flex;
+  justify-content: center;
+   height: 60rem;
+   width: 100%;
+   
+
+ }
+
+
+
+
+
+
+  .graphic-design-image {
+    height: 60rem;
+    width: 100%;
+  }
+
+
+
+
+
+
+  .graphic-design-text-box-wrap {
+    position: absolute;
+    padding: 0.2rem;
+    margin-top: 39.8rem;
+    margin-bottom: 5.9rem;
+    height: 14.3rem;
+    width: 32.7rem;
+    
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .graphic-design-title {
+    font-family: $font-one;
+    color: $graphic-design-title;
+    margin-top: 0;
+    margin-bottom: 2.7rem;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 3.452rem;
+    letter-spacing: -0.02rem;
+    text-align: center;
+  }
+
+
+
+
+
+ .graphic-design-copy {
+    font-family: $font-two;
+    font-weight: 600;
+    color: $graphic-design-copy;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    letter-spacing: -0.011px;
+    text-align: center;
+ }
+
+
+
+
+
+
+
+ .photography-image-wrap {
+   display: flex;
+   justify-content: center;
+   height: 60rem;
+   width: 100%;
+  
+ }
+
+
+
+
+
+ .photography-image {
+   height: 60rem;
+   width: 100%;
+ }
+
+
+
+
+
+
+ .photography-text-box-wrap {
+   position: absolute;
+   margin-top: 39.8rem;
+   margin-bottom: 5.9rem;
+   height: 14.3rem;
+   width: 32.7rem;
+   padding: 0.2rem;
+   
+ }
+
+
+
+
+
+
+
+ .photography-title {
+   font-family: $font-one;
+   color: $photography-title;
+   margin-top: 0;
+   margin-bottom: 2.7rem;
+   font-weight: 900;
+   font-size: 2.8rem;
+   line-height: 3.452rem;
+   letter-spacing: -0.02rem;
+   text-align: center;
+ }
+
+
+
+
+
+
+ .photography-copy {
+   font-family: $font-two;
+   font-size: 1.6rem;
+   color: $photography-copy;
+   font-weight: 600;
+   line-height: 2.7rem;
+   letter-spacing: -0.011rem;
+   text-align: center;
+
+ }
+
+
+
+
+
+
+/*   client testimony section  */
+
+
+
+
+  .client-testimony-box-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6.4rem;
+    margin-bottom: 8.6rem;
+    height: 110.8rem;
+    width: 32.7rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+
+  .client-testimony-title {
+     font-size: 1.6rem;
+     font-family: $font-one;
+     font-weight: 900;
+     line-height: 1.973rem;
+     letter-spacing: 0.4rem;
+     color: $client-test-title;
+     
+  }
+
+
+
+
+
+
+
+   .client-one-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6.4rem;
+    height: 28.8rem;
+    width: 32.7rem;
+    margin-top: 6.4rem;
+    
+   }
+
+
+
+
+
+
+   .client-one-image {
+     height: 7.2rem;
+     width: 7.2rem;
+     border-radius: 3.5rem;
+   }
+
+
+
+
+
+
+
+   .client-one-copy {
+     font-family: $font-two;
+     color: $client-copy;
+     font-size: 1.8rem;
+     margin-top: 3.2rem;
+     margin-bottom: 3.2rem;
+     text-align: center;
+     font-weight: 600;
+     line-height: 3.2rem;
+     letter-spacing: -0.013rem;
+
+   }
+
+
+
+
+
+
+
+
+
+   .client-one-person-name {
+      font-family: $font-one;
+      font-weight: 900;
+      margin-top: 0;
+      margin-bottom: 0.9rem;
+      font-size: 1.8rem;
+      line-height: 2.219rem;
+      letter-spacing: -0.013rem;
+      color: $dark-blue;
+   }
+
+
+
+
+
+
+
+
+
+   .client-one-job-title {
+     font-family: $font-two;
+     font-weight: 600;
+     font-size: 1.4rem;
+     line-height: 2.5rem;
+     letter-spacing: -0.01rem;
+     color: $client-job;
+     margin-top: 0;
+   }
+
+
+
+
+
+
+   .client-two-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6.4rem;
+    height: 32rem;
+    width: 32.7rem;
+    
+   }
+
+
+
+
+
+
+  .client-two-image {
+    height: 7.2rem;
+    width: 7.2rem;
+    border-radius: 3.5rem;
+  }
+
+
+
+
+
+  .client-two-copy {
+    font-family: $font-two;
+    color: $client-copy;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.013rem;
+    text-align: center;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+ }
+
+
+
+
+
+
+
+ .client-two-person-name {
+   font-family: $font-one;
+   font-weight: 900;
+   font-size: 1.8rem;
+   line-height: 2.219rem;
+   letter-spacing: -0.013rem;
+   color: $dark-blue;
+   margin-top: 0;
+   margin-bottom: 0.9rem;
+ }
+
+
+
+
+
+ .client-two-job-title {
+   font-family: $font-two;
+   font-weight: 600;
+   font-size: 1.4rem;
+   line-height: 2.5rem;
+   letter-spacing: -0.01rem;
+   color: $client-job;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+
+
+
+
+
+ .client-three-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 28.8rem;
+  width: 32.7rem;
+  margin-bottom: 8.6rem;
+}
+
+
+
+
+
+.client-three-image {
+  height: 7.2rem;
+  width: 7.2rem;
+  border-radius: 3.5rem;
+}
+
+
+
+
+
+
+.client-three-copy {
+  font-family: $font-two;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.013rem;
+  text-align: center;
+  color: $client-copy;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+
+
+
+
+
+
+.client-three-person-name {
+  margin-top: 0;
+  font-family: $font-one;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 2.219rem;
+  letter-spacing: -0.013rem;
+  text-align: center;
+  color: $dark-blue;
+  margin-bottom: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+.client-three-job-title {
+  font-family: $font-two;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.01rem;
+  text-align: center;
+  color: $client-job;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+/*  bottom image block   */
+
+
+
+
+.image-block-wrap-one {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  height: 18.8rem;
+  width: 100vw;
+ 
+ 
+}
+
+
+
+
+
+
+
+.milk-bottles-image {
+  height: 18.8rem;
+  width: 50%;
+}
+
+
+
+
+
+
+
+.orange-plate-image {
+  height: 18.8rem;
+  width: 50%;
+}
+
+
+
+
+
+.image-block-wrap-two {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  height: 18.8rem;
+  width: 100vw;
+
+ 
+}
+
+
+
+
+
+
+.cone-image {
+  height: 18.8rem;
+  width: 50%;
+
+}
+
+
+
+
+
+
+.sugar-image {
+  height: 18.8rem;
+  width: 50%;
+
+}
+
+
+
+
+
+
+
+/*  footer section    */
+
+
+
+
+
+.footer-box-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 35rem;
+  width: 100vw;
+  background-color: $footer-wrap-col;
+ 
+}
+
+
+
+
+
+
+.footer-logo-wrap {
+  margin-top: 6.4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+.footer-logo {
+  width: 17rem;
+  height: 3.3rem;
+}
+
+
+
+
+
+.footer-nav-wrap-links {
+  display: flex;
+  width: 29.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8.8rem;
+  justify-content: space-between;
+  
+}
+
+
+
+
+
+.links {
+  font-family: $font-two;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.013rem;
+  color: $footer-links;
+
+}
+
+
+
+
+
+.footer-icon-wrap {
+   display: flex;
+   justify-content: space-between;
+   margin-left: auto;
+   margin-right: auto;
+   width: 16.4rem;
+   margin-bottom: 8rem;
+}
+
+
+
+
+.icon {
+  z-index: 1;
+}
+
+
+
+
+/*  white icons for footer hover change  */
+
+
+.facebook-icon-white {
+  position: relative;
+  right: 2rem;
+  z-index: 0;
+  
+ 
+ 
+  
+}
+
+
+.insta-icon-white {
+  position: relative;
+  right: 2.05rem;
+  z-index: -0;
+ 
+ 
+ 
+  
+}
+
+
+.twitter-icon-white {
+  position: relative;
+  right: 2.05rem;
+  z-index: 0;
+  
+ 
+ 
+ 
+  
+}
+
+
+.pin-icon-white {
+  position: relative;
+  right: 2rem;
+  z-index: 0;
+  
+ 
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    Hover states   */
+
+    .large-navbar-button:hover {
+      color: $background-col;
+      background-color: rgba(255, 255, 255, 0.3);
+     
+
+    }
+
+
+
+
+    .first-text-box-wrap:hover {
+      background-color: $background-col;
+
+    }
+
+
+
+    .wrap-for-hover-white:hover {
+      background-color: $background-col;
+
+    }
+
+
+
+    .client-testimony-box-wrap:hover {
+      background-color: $background-col;
+
+    }
+
+
+    .about-footer:hover {
+      color: $background-col;
+
+    }
+
+
+
+
+    .services-footer:hover {
+      color: $background-col;
+
+    }
+
+
+
+    .projects-footer:hover {
+      color: $background-col;
+
+    }
+
+
+    .facebook-icon:hover {
+      z-index: -1;
+      
+    }
+
+
+
+    .insta-icon:hover {
+      z-index: -1;
+      
+    }
+
+
+
+    .twitter-icon:hover  {
+      z-index: -1;
+      
+    }
+
+
+
+    .pin-icon:hover {
+      z-index: -1;
+      
+    }
+
+
+
+ 
+
+  
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 650px)  {
+
+
+
+    body {
+      background-color: $large-screen-body;
+    }
+
+
+
+
+
+
+    .main-contain {
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+
+   
+
+
+
+
+    .nav-content {
+      padding-left: 4rem;
+      padding-right: 4rem;
+      display: flex;
+      justify-content: space-between;
+      height: 5.6rem;
+      width: 100%;
+      
+     
+    }
+    
+    
+
+
+    
+    .larger-header-image {
+        height: 100%;
+        width: 100%;
+      
+      }
+
+
+
+      .large-navbar-links {
+        display: flex;
+        justify-content: space-between;
+        height: 5.7rem;
+        width: 46.7rem;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+
+
+
+      .large-navbar-button {
+        width: 14rem;
+        height: 5.6rem;
+        background-color: $background-col;
+        border-radius: 2.8rem;
+        border: none;
+        font-family: $font-one;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.011rem;
+        color: $dark-blue;
+
+      }
+
+
+
+
+      .font-info {
+       font-size: 1.8rem;
+       font-family: $font-two;
+       line-height: 2.5rem;
+       font-weight: 600;
+       letter-spacing: -0.013rem;
+       color: $background-col;
+      
+
+      }
+
+
+
+
+
+      .sunny-logo {
+       height: 3.3rem;
+       width: 17rem;
+       color: $background-col;
+       margin-top: auto;
+       margin-bottom: auto;
+       
+        
+    }
+
+
+
+
+
+
+
+   
+
+
+
+
+    .top-title-box {
+    
+      display: flex;
+      flex-direction: column;
+      width: 75rem;
+      height: 22rem;
+      margin-left: 2.4rem;
+      margin-right: 2.4rem;
+      margin-top: 6rem;
+      
+   }
+  
+  
+  
+  
+   .creatives-main-title { 
+      font-size: 5.6rem;
+      line-height: 6.905rem;
+      font-weight: 900;
+      font-family: $font-one;
+      margin: 0;
+      text-align: center;
+      color: $background-col;
+   }
+
+
+
+
+
+   .arrow-down-main {
+    width: 3rem;
+    height: 10.748rem;
+    align-self: center;
+    margin-top: 5.2rem;
+    
+   
+ }
+
+
+
+
+ /*   wrap for white hover */
+
+ .wrap-for-hover-white {
+  width: 50%;
+}
+
+
+
+
+
+ .first-text-box-wrap {
+  margin-top: 15.8rem;
+  margin-left: 15.8rem;
+  margin-right: 11.5rem;
+  margin-bottom: 6.4rem;
+  padding: 0;
+  height: 28.5rem;
+  width: 44.5rem;
+  background-color: transparent;
+  
+  
+} 
+
+
+
+
+.first-text-box-title {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4.932rem;
+  font-family: $font-one;
+  text-align: left;
+  color: $dark-blue;
+  letter-spacing: -0.029rem;
+  margin-top: 0;
+  margin-bottom: 3.2rem;
+}
+
+
+
+
+
+.first-text-box-copy {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 600;
+  font-family: $font-two;
+  text-align: left;
+  color: $text-box-grey;
+  letter-spacing: -0.013rem;
+}
+
+
+
+
+
+
+.first-text-box-link {
+  text-align: left;
+  font-size: 1.5rem;
+
+}
+
+
+
+
+
+
+.egg-larger-screens  {
+  width: 72rem;
+  width: 50%;
+  height: 60rem;
+
+}
+
+
+
+
+
+
+.pink-glass-larger {
+  width: 72rem;
+  width: 50%;
+  height: 60rem;
+
+}
+
+
+
+
+.second-text-box-wrap {
+  height: 28.6rem;
+  width: 60rem;
+  background-color: transparent;
+  margin-top: 14.7rem;
+  margin-left: 11rem;
+  margin-bottom: 15.7rem;
+  
+ 
+}
+
+
+
+
+
+
+.second-text-box-title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 3.3rem;
+  font-family: $font-one;
+  color: $dark-blue;
+  line-height: 4.932rem;
+  letter-spacing: -0.029rem;
+  text-align: left;
+}
+
+
+
+
+
+.second-text-box-copy {
+  font-size: 1.8rem;
+  font-family: $font-two;
+  line-height: 3rem;
+  letter-spacing: -0.013rem;
+  font-weight: 600;
+  color: $text-box-grey;
+  text-align: left;
+
+}
+
+
+
+
+
+.second-text-box-link {
+  font-size: 1.5rem;
+  text-align: left;
+
+
+}
+
+
+
+
+.create-row-wrap {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+.graphic-image-wrap {
+  
+   height: 60rem;
+   width: 50%;
+   
+
+ }
+
+
+
+
+.graph-design-larger {
+  width: 100%;
+  height: 60rem;
+
+}
+
+
+
+.graphic-design-text-box-wrap {
+  position: absolute;
+  padding: 0.2rem;
+  margin-top: 39.6rem;
+  margin-bottom: 5.4rem;
+  height: 14.3rem;
+  width: 32.7rem;
+  
+
+
+}
+
+
+
+
+.photography-image-wrap {
+  height: 60rem;
+  width: 50%;
+  margin-left: -0.2rem;
+ 
+}
+
+
+
+
+
+.photography-image-larger {
+  height: 60rem;
+  width: 100%;
+}
+
+
+
+
+
+
+.photography-text-box-wrap {
+  position: absolute;
+  margin-top: 39.8rem;
+  margin-bottom: 5.4rem;
+  height: 14.3rem;
+  width: 32.7rem;
+  padding: 0.2rem;
+  
+
+}
+
+
+
+
+.client-testimony-box-wrap {
+  
+  display: flex;
+  align-items: center;                 
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 13.5rem;
+  padding-bottom: 16rem;
+  height: 45.7rem;
+  width: 100vw;
+  
+  
+
+}
+
+
+
+
+.center-title-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+ 
+ 
+}
+
+
+
+
+
+.wrap-for-all-clients {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+
+}
+
+
+
+
+
+
+
+
+.client-one-wrap {
+  margin: 0;
+  margin-right: 3rem;
+  height: 35rem;
+}
+
+
+
+.client-one-copy {
+  margin-top: 3.2rem;
+  margin-bottom: 6.9rem;
+ 
+
+}
+
+
+
+
+.client-two-wrap {
+  margin: 0;
+  margin-right: 3rem;
+  height: 35rem;
+
+}
+
+
+
+.client-two-copy {
+  margin-top: 3.2rem;
+  margin-bottom: 3.6rem;
+
+}
+
+
+
+
+
+
+
+.client-three-wrap {
+  margin: 0;
+  height: 35rem;
+
+}
+
+
+
+
+.client-three-copy {
+  margin-top: 3.2rem;
+  margin-bottom: 6.9rem;
+
+}
+
+
+
+
+
+/*   bottom image row  */
+
+
+
+
+.image-block-wrap-one {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  align-self: center;
+  height: 44.7rem;
+  width: 100vw;
+ 
+ 
+}
+
+
+
+
+
+
+.milk-bottles-larger {
+  width: 25%;
+
+}
+
+
+
+
+
+.orange-plate-larger {
+  width: 25%;
+
+}
+
+
+
+.ice-cream-cone-larger {
+  width: 25%;
+
+}
+
+
+
+
+.sugar-cubes-larger {
+  width: 25%;
+}
+
+
+
+
+
+.image-block-wrap-two {
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-logo-wrap {
+  margin-top: 7.2rem;
+  margin-bottom: 4rem;
+
+
+}
+
+
+.footer-nav-wrap-links {
+  margin-bottom: 8.8rem;
+
+
+}
+
+
+
+.footer-icon-wrap {
+  margin-bottom: 7.2rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+}
+
+

@@ -1,11 +1,24 @@
 
-import './App.css';
+import './App.scss';
+import RootLayout from './components/RootLayout';
+
+
+
+
+
+
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-        
-      <h1>hello</h1>
+      <RootLayout />
+     
+
 
     </div>
   );
