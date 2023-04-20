@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://https://kaygeorgeson.github.io/Sunnyside-Agency-Landing-Page/)
+- Live Site URL: https://kaygeorgeson.github.io/Sunnyside-Agency-Landing-Page/
 
 
 
