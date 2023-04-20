@@ -9,9 +9,9 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Links](#links)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+
 
 ## Overview
 
@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://https://kaygeorgeson.github.io/Sunnyside-Agency-Landing-Page/)
 
 
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@KayGeorgeson](https://https://www.frontendmentor.io/profile/KayGeorgeson)
 
 
 
